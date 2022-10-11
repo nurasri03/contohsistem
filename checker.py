@@ -55,41 +55,6 @@ def upload_file():
     return render_template('result.html', prediction = ['malicious', 'legitimate'][res])
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #The phrase File Entropy is used to measure the amount of data which is present in a selected file. For example, if you have some files and desire to calculate the entropy value for that, then it will be very simple by accessing the methods of File Entropy and its calculation process.
 def get_entropy(data):
     if len(data) == 0:
